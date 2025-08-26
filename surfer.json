@@ -1,0 +1,36 @@
+{
+  "name": "Ramses",
+  "vendor": "Ramses",
+  "appId": "com.Ramses.browser",
+  "binaryName": "Ramses",
+  "version": {
+    "product": "firefox",
+    "version": "141.0.3",
+    "candidate": "141.0.3"
+  },
+  "buildOptions": {
+    "windowsUseSymbolicLinks": false,
+    "generateBranding": true
+  },
+  "addons": {},
+  "brands": {
+    "release": {
+      "backgroundColor": "#000000",
+      "brandShorterName": "Ramses",
+      "brandShortName": "Ramses",
+      "brandFullName": "Ramses Browser",
+      "release": {
+        "displayVersion": "1.0.0",
+        "github": {
+          "repo": "bserag5/ramses"
+        }
+      }
+    }
+  },
+  "license": {
+    "ignoredFiles": [
+      ".*\\.json"
+    ],
+    "licenseType": "MPL-2.0"
+  }
+}
